@@ -42,7 +42,7 @@ const Navbar = ({ highlight, onHome, onProjects, onSkills, onContact }) => {
                 highlight === "Contact" ? "text-blue-300" : "text-white"
               }`}
             >
-              Contactt
+              Contact
             </a>
             <div className="hidden md:block"> <a
               // href="./assets/Portfolio.png"
