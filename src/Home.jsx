@@ -1,5 +1,7 @@
 import { ReactTyped } from "react-typed";
 import { motion } from "motion/react";
+import Resume from "./assets/Palash_Resume.pdf";
+
 
 
 
@@ -76,8 +78,8 @@ const Home = ({ onContact }) => {
             
 
             <div className="block md:hidden"> <a
-              href="./assets/frontImg.jpg"
-              download="PalashSoni.jpg"
+              href={Resume}
+              download=""
             >
               <button className=" text-2xl bg-white text-slate-800  font-bold rounded-3xl cursor-pointer" style={{padding:"7px",paddingLeft:"18px",paddingRight:"18px"}}>
                 <span className="font-semibold"><i className="fa-solid fa-circle-down"></i></span> <span className="inline md:hidden">Download</span> CV
