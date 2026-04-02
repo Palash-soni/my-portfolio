@@ -19,8 +19,8 @@ const Projects = () => {
       Description:
       "A modern and responsive developer portfolio website built using React.js, Tailwind CSS, and Framer Motion for smooth animations and interactive user experience. The website showcases my projects, skills, and technical journey with clean UI design principles and optimized performance. This project highlights my frontend development skills, component-based architecture understanding, animation integration, and responsive design practices.",
       ImagePath: PortfolioIMG,
-      URL: "http://localhost:5173/",
-      gitURL: "https://github.com/Palash-soni/To-Do-Application-React",
+      URL: "https://palashsoni.vercel.app/",
+      gitURL: "https://github.com/Palash-soni/my-portfolio",
       direction: "LTR",
       iFrame: true,
       Line: true,
