@@ -52,7 +52,7 @@ const Projects = () => {
       Description:
         "A beginner-friendly To-Do List Application developed using React.js to strengthen my understanding of core frontend concepts such as component structure, state management, event handling, and dynamic rendering. The application allows users to add, delete, and manage daily tasks efficiently, demonstrating foundational React development skills and clean UI implementation.",
       ImagePath: ToDoImage,
-      URL: "http://to-do-application-reactjs-palash-soni.netlify.app",
+      URL: "https://to-do-application-reactjs-palash-soni.netlify.app/",
       gitURL: "https://github.com/Palash-soni/To-Do-Application-React",
       direction: "RTL",
       iFrame: true,
