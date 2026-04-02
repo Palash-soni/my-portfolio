@@ -1,0 +1,76 @@
+/* Parent container styles */
+:root{
+  --gap: 7rem; /* Define a CSS variable for consistent spacing */
+
+}
+.marquee {
+  display: flex;
+  overflow: hidden; /* Hides content outside the container */
+  user-select: none;
+  gap: var(--gap);
+  /* Optional: Add height, background, etc. */
+  height: 5rem;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media (width < 600px) {
+  :root{
+    --gap:2rem;
+  }
+}
+
+/* Inner content wrapper styles */
+.marquee__content {
+  display: flex;
+  flex-shrink: 0; /* Prevents items from shrinking */
+  align-items: center;
+  gap: var(--gap);
+  z-index: 20;
+  min-width: 100%; /* Ensures the content takes at least the full width of the parent */
+  animation: scroll 25s linear infinite;
+}
+
+.marquee__contentrev {
+    display: flex;
+    flex-shrink: 0; /* Prevents items from shrinking */
+    align-items: center;
+    z-index: 20;
+  gap: var(--gap);
+  min-width: 100%; /* Ensures the content takes at least the full width of the parent */
+  animation: scroll 25s reverse linear infinite;
+}
+
+/* Individual items inside the content wrapper */
+.marquee__content > div {
+    transition: 0.2s ease-in-out;
+   
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+.marquee__contentrev > div {
+    transition: 0.2s ease-in-out;
+   
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.marquee__contentrev div:hover {
+  transform: scale(1.1);
+}
+.marquee__content div:hover {
+  transform: scale(1.1);
+}
+
+
+/* Keyframe animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Animates exactly the width of one content set plus the gap */
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+
+
