@@ -47,7 +47,7 @@ const Navbar = ({ highlight, onHome, onProjects, onSkills, onContact }) => {
             <div className="hidden md:block"> <a
               // href="./assets/Portfolio.png"
               href={Resume}
-              download=""
+              download="Palash_Soni"
             >
               <button className="leading-8 text-lg bg-transparent hover:bg-white text-white hover:text-slate-800  font-bold rounded-3xl cursor-pointer border-2 border-white" style={{paddingLeft:"10px",paddingRight:"10px"}}>
                 <span className="font-semibold"><i className="fa-solid fa-circle-down"></i></span> <span className="hidden md:inline">Download</span> CV
