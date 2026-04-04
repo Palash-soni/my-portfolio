@@ -1,6 +1,6 @@
 import { ReactTyped } from "react-typed";
 import { motion } from "motion/react";
-import Resume from "./assets/Palash_Resume.pdf";
+import Resume from "./assets/Palash_Soni_Resume.pdf";
 
 
 
