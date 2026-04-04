@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import Resume from "./assets/Palash_Resume.pdf";
+import Resume from "./assets/Palash_Soni_Resume.pdf";
 import "./Nav.css";
 
 const Navbar = ({ highlight, onHome, onProjects, onSkills, onContact }) => {
