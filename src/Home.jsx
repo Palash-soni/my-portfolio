@@ -44,7 +44,7 @@ const Home = ({ onContact }) => {
 
           <div className="text-3xl flex gap-3 justify-center items-center">
             <a
-              href="https://www.linkedin.com/in/palashsoni28"
+              href="https://www.linkedin.com/in/palash-soni-mern/"
               className="text-gray-400 hover:text-white"
               title="LinkedIn"
             >

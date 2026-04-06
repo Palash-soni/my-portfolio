@@ -8,6 +8,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         "service_lbx31ot",
