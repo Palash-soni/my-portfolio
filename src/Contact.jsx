@@ -11,10 +11,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_lbx31ot",
-        "template_cpkz19l",
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_KEY,
         form.current,
-        "w3EKxkskkcBIlfq6x",
+        import.meta.env.VITE_EMAILJS_PRIVATE_KEY,
       )
       .then(() => {
         alert("Message Has been sent");
