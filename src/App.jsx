@@ -1,5 +1,5 @@
 import Aurora from "./Aurora";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState} from "react";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Skills from "./Skills";
@@ -7,6 +7,8 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Snowfall from "react-snowfall";
 import Footer from "./Footer";
+
+// const HeavyComponent = lazy(() => import('./Projects.jsx'));
 
 // import { useInView } from 'react-intersection-observer'
 
@@ -81,6 +83,13 @@ const imgs = [snowflake1]
           }}
         />
       </div>
+
+{/* 
+<Suspense fallback={<div>Loading component...</div>}>
+        <HeavyComponent />
+      </Suspense> */}
+
+
       <div ref={Homeref} className="scroll-mt-[80px] md:snap-start" data-section="Home" >
         <Home onContact={() => {
             scrollTo(Contactref);

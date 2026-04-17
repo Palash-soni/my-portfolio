@@ -19,7 +19,11 @@ const Home = ({ onContact }) => {
               ease: "easeInOut",
               repeat: Infinity
             }}
-        className="h-60 lg:h-90 w-60 lg:w-90 bg-white rounded-full bg-[url('./assets/PalImgFr.png')] bg-contain bg-no-repeat bg-center z-21 drop-shadow-xl drop-shadow-blue-300"></motion.div>
+        className="h-60 lg:h-100 w-60 lg:w-100 z-21 rounded-full overflow-hidden bg-[url('./assets/BG.jpg')] bg-cover" style={{filter:"drop-shadow(5px 5px 4px black)"}}>
+
+          <div className="z-21 h-full w-full bg-[url('./assets/Palash_Soni_WBG.webp')] bg-contain bg-no-repeat bg-center" style={{filter:"drop-shadow(10px 10px 5px black)"}}></div>
+          {/* <div className="rounded-full -z-10 w-full h-[70%] bg-slate-300 blur-lg relative bottom-20"></div> */}
+        </motion.div>
         <div className="md:hidden"></div>
         <div
           className="text-3xl text-white h-20 leading-15 flex flex-col items-start justify-center gap-2 md:gap-4 z-21 lg:text-7xl text-shadow-sm text-shadow-black font-bold"

@@ -4,7 +4,7 @@ import React from "react";
 import ProjectCards from "./components/ProjectCards";
 import ToDoImage from "./assets/ToDo.png";
 import ConnectUsImg from "./assets/ConnUs.png";
-import PortfolioIMG from "./assets/Portfolio.png";
+import PortfolioIMG from "./assets/Portfolio.webp";
 import ATMimg from "./assets/ATM.png";
 import HotelImg from "./assets/HotelRest.png";
 
