@@ -41,10 +41,10 @@ const Projects = () => {
       Description:
         "A full-stack Hotel and Restaurant Management System developed as my major college project using the MERN Stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS for modern UI design. The application streamlines hotel and restaurant operations through dedicated role-based modules including Customer, Admin, Waiter, and Receptionist. Features include table booking, order management, billing system, room management, user authentication (JWT), and real-time data handling. The project demonstrates my ability to design scalable architectures, implement REST APIs, manage complex workflows, and build responsive user interfaces.",
       ImagePath: HotelImg,
-      URL: "",
+      URL: "https://innova-hotels.vercel.app",
       gitURL: "https://github.com/Palash-soni/ConnectUs",
       direction: "LTR",
-      iFrame: false,
+      iFrame: true,
       Line: true,
     },
     {
